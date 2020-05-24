@@ -35,7 +35,6 @@ const Tetris = () => {
   };
 
   const startGame = () => {
-    console.log("test");
     // Reset Everything
     setStage(createStage());
     setDropTime(1000);
